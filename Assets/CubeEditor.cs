@@ -22,8 +22,8 @@ public class CubeEditor : MonoBehaviour
         //Attention ça ne prendra pas forcement celui qu'on veut si il y en a plusieurs.
         //Ici ok car un seul composant TextMest sur tte la hierarchie
         textMesh = GetComponentInChildren<TextMesh>();
-        textMesh.text = snapPos.x/10f + "," + snapPos.z/10f;
-
-
+        string labelText = snapPos.x / gridSize + "," + snapPos.z / gridSize;
+        textMesh.text = labelText;
+        gameObject.name = labelText;
     }
 }

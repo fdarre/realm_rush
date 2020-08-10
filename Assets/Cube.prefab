@@ -103,7 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6275655199976273252}
   - component: {fileID: 517629451}
-  - component: {fileID: 4202788239303032609}
+  - component: {fileID: 1209876400872180530}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridSize: 10
---- !u!114 &4202788239303032609
+--- !u!114 &1209876400872180530
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
